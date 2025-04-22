@@ -136,6 +136,28 @@ button:hover {
   display: none;
 }
 
+.participants-list {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 0;
+  list-style-type: none; /* Remove os marcadores da lista */
+}
+
+.participants-list li {
+  background-color: #e3f2fd; /* Cor clara no fundo */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(50% - 10px); /* Limita o card a metade do elemento pai */
+  max-width: 50%; /* Garante que o card não ultrapasse 50% */
+  text-align: center;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
